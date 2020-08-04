@@ -6,7 +6,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Configuration
-public class config {
+public class BeanConfig {
 
     @Bean
     public PasswordEncoder getPasswordEncoder() {
